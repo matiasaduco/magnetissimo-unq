@@ -2,7 +2,7 @@ import Config
 
 # Configure your database
 config :magnetissimo, Magnetissimo.Repo,
-  username: "postgres",
+  username: "magnetissimo_user",
   password: "postgres",
   hostname: "localhost",
   database: "magnetissimo_dev",

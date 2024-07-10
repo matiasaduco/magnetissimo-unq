@@ -8,4 +8,8 @@ defmodule MagnetissimoWeb.TorrentLive do
     torrent = Torrents.get_torrent!(params["torrent_id"])
     {:ok, assign(socket, :torrent, torrent)}
   end
+
+  def sonarr() do
+
+  end
 end
